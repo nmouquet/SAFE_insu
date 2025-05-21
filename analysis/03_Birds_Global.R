@@ -310,7 +310,7 @@ Insu <- function(insured,insurer,occ_list,dist_mat,D_insu,D_thr){
           save(buffer_cells,file=here::here("results",'BIG_FILES',"all_buffer",paste0("cell_",id_cell,".RData")))
         }
         
-  pbmcapply::pbmcmapply(get_buffer, all_cell_occ, mc.cores = paralell::parallel::detectCores()-1)
+  pbmcapply::pbmcmapply(get_buffer, all_cell_occ, mc.cores = parallel::detectCores()-1)
         
 #----
 
