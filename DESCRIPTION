@@ -1,0 +1,59 @@
+Package: SAFE_insu
+Type: Package
+Title: Spatial Insurance of Distinct Ecological Functions
+Version: 0.0.1
+Authors@R: c(
+    person(given   = "Nicolas",
+           family  = "Mouquet",
+           role    = c("aut", "cre", "cph"),
+           email   = "nicolas.mouquet@cnrs.fr",
+           comment = c(ORCID = "0000-0003-1840-6984")))
+Description: Research compendium of the article 'Spatial insurance of distinct 
+        ecological functions' by Mouquet N. et al. submited to Ecology Letters 
+        in 2025.
+URL: https://github.com/nmouquet/SAFE_insu
+BugReports: https://github.com/nmouquet/SAFE_insu/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    ape,
+    cowplot,
+    dplyr,
+    exactextractr,
+    ggExtra,
+    ggforce,
+    ggplot2,
+    grid,
+    gridExtra,
+    lme4,
+    lmerTest,
+    MuMIn,
+    nlme,
+    phytools,
+    RColorBrewer,
+    readxl,
+    rgdal,
+    rgeos,
+    rptR,
+    scales,
+    sf,
+    terra,
+    viridis
+Imports: 
+    ade4,
+    betapart,
+    boot,
+    FSA,
+    funrar,
+    graphics,
+    grDevices,
+    here,
+    pbmcapply,
+    raster,
+    sp,
+    spdep,
+    stats,
+    tidyr,
+    tmap
